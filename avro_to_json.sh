@@ -8,7 +8,6 @@ SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
 
 # Path to your avro-tools.jar
 # Assumes avro-tools.jar is in the same directory as this script.
-# (e.g., /home/rudyrivera/binlog-parser/go-mysql/avro-tools-1.11.1.jar)
 AVRO_TOOLS_JAR="${SCRIPT_DIR}/avro-tools-1.11.1.jar"
 
 # Directory where your .avro files are located
